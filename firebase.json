@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "doctorapp-4843a",
+          "appId": "1:579463191769:android:417d890216f7485f4772c8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "doctorapp-4843a",
+          "configurations": {
+            "android": "1:579463191769:android:417d890216f7485f4772c8",
+            "ios": "1:579463191769:ios:91d57141f974ae3b4772c8",
+            "macos": "1:579463191769:ios:91d57141f974ae3b4772c8",
+            "web": "1:579463191769:web:c63a3a7d6cec5aac4772c8",
+            "windows": "1:579463191769:web:82f2e10cab9af3a94772c8"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}
